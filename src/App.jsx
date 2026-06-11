@@ -1,6 +1,7 @@
-// import react from 'react'
+import react from 'react'
 import './app.scss'
 import Dock from './componets/dock'
+import Nav from './componets/nav'
 
 function App() {
   
@@ -9,6 +10,7 @@ function App() {
   
     <main>
       <Dock></Dock>
+      <Nav />
     </main>
     
   )
