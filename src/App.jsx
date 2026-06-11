@@ -1,12 +1,15 @@
 // import react from 'react'
 import './app.scss'
+import Dock from './componets/dock'
 
 function App() {
   
 
-  return (<>
+  return (
   
-  </>
+    <main>
+      <Dock></Dock>
+    </main>
     
   )
 }
