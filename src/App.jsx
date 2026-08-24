@@ -1,7 +1,7 @@
 import './app.scss'
 import Dock from './componets/dock'
 import Nav from './componets/nav'
-import MacWindow from './componets/windows/MacWindow'
+import Github from './componets/windows/Github'
 
 function App() {
   
@@ -11,7 +11,8 @@ function App() {
     <main>
       <Dock></Dock>
       <Nav />
-      <MacWindow/>
+      <Github/>
+     
     </main>
     
   )
