@@ -1,7 +1,7 @@
-import react from 'react'
 import './app.scss'
 import Dock from './componets/dock'
 import Nav from './componets/nav'
+import MacWindow from './componets/windows/MacWindow'
 
 function App() {
   
@@ -11,6 +11,7 @@ function App() {
     <main>
       <Dock></Dock>
       <Nav />
+      <MacWindow/>
     </main>
     
   )
